@@ -1,0 +1,275 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.11"
+  },
+  "cells": [
+    {
+      "id": "lEQa",
+      "code_hash": "75c77a598dd5a0676137593346d82997",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"fullstandsregelung-fur-ein-rundbecken\">F\u00fcllstandsregelung f\u00fcr ein Rundbecken</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "9d9f10cc21bb3bfcbd649aa0cb1308a0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"vorgaben\">Vorgaben</h2>\n<ul>\n<li><strong>Maximaler F\u00fcllstand:</strong> 6 m</li>\n<li><strong>Mindestf\u00fcllstand:</strong> 0,5 m</li>\n<li><strong>Regelgr\u00f6\u00dfe:</strong> Wasserstand im Becken</li>\n<li><strong>Stellgr\u00f6\u00dfe:</strong> Zulaufvolumenstrom (Pumpe)</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "591759154121e081897e6b75d8918d66",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"anlagen-einstellungen\">Anlagen-Einstellungen</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "d12cd93eca8f5f32022a24905f258017",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"regler-einstellungen-pid-regler\">Regler-Einstellungen (PID-Regler)</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "19b3029fe91c02f7a6c6f671e2fa6daa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"ergebnisse-der-simulation\">Ergebnisse der Simulation</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "8af352cdd832e68fd02b3094e9d8b2a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "3596cc9e77eb442534432d334850f683",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "eb41ae8a709043a74a24a177731cd032",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "519e690a635b3b97d6c8b80e2d077ec0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "7cfed8ada6f8c2908192e3d920a41595",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "2cea006556eb15a473eeaaed02edd5a1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "32558eb98edc705a2d08b955119599b7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "2378069fb32703495b0e077c01fa0926",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"sollwert-fullstand\">Sollwert F\u00fcllstand</h3></span><marimo-ui-element object-id='SFPL-2' random-id='fe5432b4-be72-d191-e049-ea22d683182c'><marimo-slider data-initial-value='3' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Sollwert (m)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.5' data-stop='5.5' data-step='0.1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>3.0 m</strong></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"startwert-fullstand\">Startwert F\u00fcllstand</h3></span><marimo-ui-element object-id='SFPL-3' random-id='4a2d9e2e-7cf8-debd-2385-c8959d864476'><marimo-slider data-initial-value='1' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Startwert (m)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.5' data-stop='5.5' data-step='0.1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>1.0 m</strong></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"beckendurchmesser\">Beckendurchmesser</h3></span><marimo-ui-element object-id='SFPL-0' random-id='3972e331-308a-785a-c4c1-d3aebe7e7391'><marimo-slider data-initial-value='3' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Durchmesser (m)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.5' data-stop='8.0' data-step='0.5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>3.0 m</strong></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"abfluss-aus-becken\">Abfluss aus Becken</h3></span><marimo-ui-element object-id='SFPL-1' random-id='1cb2f3c2-ccf3-8a6a-e41e-44084a0125d3'><marimo-slider data-initial-value='50' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Abfluss (%)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0' data-stop='100' data-step='5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>50 %</strong></span></span></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "e8d7e9b7818f43cd1d12ae702ff320c8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "5cb15a119a00c5bb3bf46adfcc0d372b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "6c21023b08b311a5576416d8614cb09a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"k_p-p-anteil\"><marimo-tex class=\"arithmatex\">||(K_P||)</marimo-tex> (P-Anteil)</h3></span><marimo-ui-element object-id='emfo-0' random-id='4774a13e-45a1-874b-cfab-33c38253f041'><marimo-slider data-initial-value='0.0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;K_P&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.0' data-stop='3.0' data-step='0.1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>0.0</strong></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"k_i-i-anteil\"><marimo-tex class=\"arithmatex\">||(K_I||)</marimo-tex> (I-Anteil)</h3></span><marimo-ui-element object-id='emfo-1' random-id='c9e3f49a-ed4d-6e19-60e2-dab01c1eed08'><marimo-slider data-initial-value='0.0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;K_I&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.0' data-stop='3.0' data-step='0.1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>0.0</strong></span></span></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"k_d-d-anteil\"><marimo-tex class=\"arithmatex\">||(K_D||)</marimo-tex> (D-Anteil)</h3></span><marimo-ui-element object-id='emfo-2' random-id='ae6f373c-a9e0-9b54-4c9a-0cf8eac6a862'><marimo-slider data-initial-value='0.0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;K_D&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0.0' data-stop='0.3' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>0.0</strong></span></span></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "718aad70fc82803e623798096d53c69c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "e6e1816630d4fdc4ce6d5f4edb5b1b30",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"simulationsdauer\">Simulationsdauer</h3></span><marimo-ui-element object-id='iLit-0' random-id='c391d1d4-093a-db0c-7068-e4400868c284'><marimo-slider data-initial-value='5' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Dauer (h)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='1' data-stop='10' data-step='0.5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>5.0 h</strong></span></span></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "3c7ca0a8d5a9a79f5fad9024d7b0241b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:58 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:59 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n\u001b[33m[W 260216 12:42:59 altair_transformer:79]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "b50951613bcd649dc2f9fe580866fe38",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='ROlb-0' random-id='580ed805-322f-f9ad-1d28-ebaf5bb39d38'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300},&quot;title&quot;:{&quot;anchor&quot;:&quot;start&quot;,&quot;fontSize&quot;:14}},&quot;layer&quot;:[{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/173740-1523159-lGAyfXwM.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;line&quot;,&quot;color&quot;:&quot;#1f77b4&quot;,&quot;strokeWidth&quot;:2},&quot;encoding&quot;:{&quot;x&quot;:{&quot;field&quot;:&quot;Zeit (h)&quot;,&quot;title&quot;:&quot;Zeit (h)&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;F\u00fcllstand (m)&quot;,&quot;scale&quot;:{&quot;domain&quot;:[0,7]},&quot;title&quot;:&quot;F\u00fcllstand (m)&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/6-1523159-Kzh0LycT.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;rule&quot;,&quot;color&quot;:&quot;#d62728&quot;,&quot;strokeDash&quot;:[6,4],&quot;strokeWidth&quot;:2},&quot;encoding&quot;:{&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/29-1523159-NZeK8m7C.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;text&quot;,&quot;align&quot;:&quot;left&quot;,&quot;color&quot;:&quot;#d62728&quot;,&quot;fontSize&quot;:11,&quot;fontWeight&quot;:&quot;bold&quot;},&quot;encoding&quot;:{&quot;text&quot;:{&quot;field&quot;:&quot;t&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;x&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/6-1523159-nS6X6FoZ.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;rule&quot;,&quot;color&quot;:&quot;#aaaaaa&quot;,&quot;strokeDash&quot;:[2,2]},&quot;encoding&quot;:{&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/24-1523159-kThdYpZA.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;text&quot;,&quot;align&quot;:&quot;left&quot;,&quot;color&quot;:&quot;#aaaaaa&quot;,&quot;fontSize&quot;:10},&quot;encoding&quot;:{&quot;text&quot;:{&quot;field&quot;:&quot;t&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;x&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/6-1523159-7uqUJyE1.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;rule&quot;,&quot;color&quot;:&quot;#aaaaaa&quot;,&quot;strokeDash&quot;:[2,2]},&quot;encoding&quot;:{&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/25-1523159-6xp0QzA2.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;text&quot;,&quot;align&quot;:&quot;left&quot;,&quot;color&quot;:&quot;#aaaaaa&quot;,&quot;fontSize&quot;:10},&quot;encoding&quot;:{&quot;text&quot;:{&quot;field&quot;:&quot;t&quot;,&quot;type&quot;:&quot;nominal&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;x&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}}],&quot;height&quot;:280,&quot;title&quot;:&quot;F\u00fcllstandsverlauf&quot;,&quot;width&quot;:700,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element><marimo-ui-element object-id='ROlb-1' random-id='d5c62a33-2573-94c2-3c81-13056d19cf07'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/176878-1523159-a1K451g0.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;line&quot;,&quot;strokeWidth&quot;:2},&quot;encoding&quot;:{&quot;color&quot;:{&quot;field&quot;:&quot;Gr\u00f6\u00dfe&quot;,&quot;legend&quot;:{&quot;orient&quot;:&quot;top&quot;,&quot;title&quot;:null},&quot;scale&quot;:{&quot;domain&quot;:[&quot;Zufluss (m\u00b3/h)&quot;,&quot;Abfluss (m\u00b3/h)&quot;],&quot;range&quot;:[&quot;#2ca02c&quot;,&quot;#9467bd&quot;]},&quot;type&quot;:&quot;nominal&quot;},&quot;strokeDash&quot;:{&quot;field&quot;:&quot;Gr\u00f6\u00dfe&quot;,&quot;legend&quot;:null,&quot;scale&quot;:{&quot;domain&quot;:[&quot;Zufluss (m\u00b3/h)&quot;,&quot;Abfluss (m\u00b3/h)&quot;],&quot;range&quot;:[[0],[6,4]]},&quot;type&quot;:&quot;nominal&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;Zeit (h)&quot;,&quot;title&quot;:&quot;Zeit (h)&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;Volumenstrom (m\u00b3/h)&quot;,&quot;title&quot;:&quot;Volumenstrom (m\u00b3/h)&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:220,&quot;title&quot;:&quot;Zufluss (Stellgr\u00f6\u00dfe) und Abfluss&quot;,&quot;width&quot;:700,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element><marimo-ui-element object-id='ROlb-2' random-id='29b38323-e71f-52ff-81fe-41a851cdf049'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;layer&quot;:[{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/173740-1523159-DYV0jP76.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;line&quot;,&quot;color&quot;:&quot;#ff7f0e&quot;,&quot;strokeWidth&quot;:2},&quot;encoding&quot;:{&quot;x&quot;:{&quot;field&quot;:&quot;Zeit (h)&quot;,&quot;title&quot;:&quot;Zeit (h)&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;Regelabweichung (m)&quot;,&quot;title&quot;:&quot;Regelabweichung (m)&quot;,&quot;type&quot;:&quot;quantitative&quot;}}},{&quot;data&quot;:{&quot;url&quot;:&quot;./@file/4-1523159-2HNZR2vN.csv&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;csv&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;rule&quot;,&quot;color&quot;:&quot;#333&quot;,&quot;strokeDash&quot;:[4,4],&quot;strokeWidth&quot;:1},&quot;encoding&quot;:{&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;,&quot;type&quot;:&quot;quantitative&quot;}}}],&quot;height&quot;:180,&quot;title&quot;:&quot;Regelabweichung (e = Sollwert \u2212 Istwert)&quot;,&quot;width&quot;:700,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
