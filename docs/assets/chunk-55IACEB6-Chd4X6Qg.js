@@ -1,0 +1,1 @@
+import{u as r}from"./src-DP02J074.js";import{n}from"./src-D4PpUKDd.js";var a=n((e,o)=>{let t;return o==="sandbox"&&(t=r("#i"+e)),r(o==="sandbox"?t.nodes()[0].contentDocument.body:"body").select(`[id="${e}"]`)},"getDiagramElement");export{a as t};

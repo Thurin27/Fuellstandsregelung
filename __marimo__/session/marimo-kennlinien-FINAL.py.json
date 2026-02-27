@@ -1,0 +1,437 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.1"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "e2fe0adfa8122340823988f5c740fb4c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "af703960d9afc0fdd81407a48602b713",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "b4753fa5463c10361a96fb7f5f5e4e4a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "a7b6d623be61a51de15543d93eb7a182",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "158077ba1a49d75bd3c05116495324f6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "2fa71716b5735e45511faf47c51202b5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "76e432073605604ce1bb889636046dfc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "3f35988340085d03eaf8c6027cb672b3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "9b8f4a961ac340a369b082f0d24046eb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "98af72e41ec11195a85b9f1378976031",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "09b897b7e532eaab1321990b850c43c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "522e099f254a010a4f0044e7136a95be",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "fe4d7365ccf7fc64bf19a71b1391890f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "a42d543fa0ccaabfb875a7add4f5ef44",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "ad4e290076a706e59cd79787634b1a07",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "1cba60ad2c5b898285dbb34c0a356637",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "f4ad380a2836654a2b193ce558e7c860",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "de9c7a968b48add9ff208ac810fb1412",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "4645ced7380007d704ededf7d4eca7fc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "480456b42faa6a33476846b3f9896599",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "11487dfc9816f2e9f9f44e9cd7470cd4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "05d60406b3a2139043d3a3d3e3d43395",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "29471d26e527cc0d4dbedc14821c9690",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "de2d0a2179ed3e5e80c5b9386fad86b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "ff6a1db1a2317b993add3c7b7dc1133c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "a6c310e5404492e3bdd760049877b2ad",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "cdb6cff586ab213b8b69814babd48594",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "ec773ba87cc66e3c4985daaba7292e16",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "a3920f4154975711bf411bb5a5b6f032",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "7ac3bf85b37c1410d0488be99d400e77",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "8e1581ee33a2b83ca42af512db3a833f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "18bcc4d5d348f2c6421324dc0f62f285",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "5d229c577923e3554be3e7741b4b1f1f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='TRpd-0' random-id='d5030eb2-8a0a-0b6d-7a6f-64832b0e3e7f'><marimo-tabs data-initial-value='&quot;&quot;' data-label='null' data-tabs='[&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcc8 Anlagenkennlinie&lt;/span&gt;&lt;/span&gt;&quot;,&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\ud83d\udcca Pumpenkennlinie&lt;/span&gt;&lt;/span&gt;&quot;]'><div data-kind='tab'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"messung-der-anlagenkennlinie-mit-einer-frequenzgesteuerten-kreiselradpumpe\">Messung der Anlagenkennlinie mit einer frequenzgesteuerten Kreiselradpumpe</h1></span><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"daten-zur-anlage\">Daten zur Anlage:</h2></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Geod\u00e4tische Saugh\u00f6he: 3 m</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Geod\u00e4tische Druckh\u00f6he: 14 m</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Gesamte Leitungsl\u00e4nge 85 m mit DN 125</span></span><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"frequenzumformer\">Frequenzumformer:</h2></span><marimo-ui-element object-id='vblA-0' random-id='a910541b-14fe-6b48-bc0f-8bf8b23aa430'><marimo-slider data-initial-value='10' data-label='null' data-start='10' data-stop='65' data-step='5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">50 Hz</span></span></div></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'><img src='./@file/12651-3966146-6JeHCaWC.png' style='width: 200px;height: 150px' /><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"180\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"37\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"37\" fill=\"transparent\"/>\n    </svg>\n    </div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"240\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"240\" fill=\"transparent\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"195\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"195\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"37\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"37\" fill=\"transparent\"/>\n    </svg>\n    </div></div>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"120\" height=\"15\" fill=\"transparent\"/>\n    </svg>\n    <div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"150\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"150\" fill=\"transparent\"/>\n    </svg>\n    <span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">-0.31 bar</span></span><img src='./@file/16950-3966146-I7smQMs2.png' style='width: 40px;height: 60px' />\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"150\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    </div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"150\" height=\"15\" fill=\"transparent\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"75\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"75\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    <div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-end;align-items: flex-start;flex-wrap: nowrap;gap: 5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">1.75 bar</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">78.8 <marimo-tex class=\"arithmatex\">||(m^3/h||)</marimo-tex></span></span></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-end;align-items: flex-end;flex-wrap: nowrap;gap: 5rem'><img src='./@file/16950-3966146-I7smQMs2.png' style='width: 40px;height: 60px' /><img src='./@file/132939-3966146-uDFAMu0B.png' style='width: 40px;height: 80px' /></div>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"225\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"225\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"60\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"60\" fill=\"transparent\"/>\n    </svg>\n    </div><img src='./@file/12651-3966146-6JeHCaWC.png' style='width: 200px;height: 150px' /></div><img src='./@file/36615-3966146-VDfTfIOz.png' style='width: 140px;height: 140px' /></div></div></div></div><div data-kind='tab'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"messung-der-pumpenkennlinie-mit-einem-drosselventil\">Messung der Pumpenkennlinie mit einem Drosselventil</h1></span><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"daten-zur-anlage\">Daten zur Anlage:</h2></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Geod\u00e4tische Saugh\u00f6he: 3 m</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Geod\u00e4tische Druckh\u00f6he: 14 m</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Gesamte Leitungsl\u00e4nge 85 m mit DN 125</span></span><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"drosselventil\">Drosselventil:</h2></span><marimo-ui-element object-id='bkHC-0' random-id='318550f5-3199-ff12-40a1-a887073a5774'><marimo-slider data-initial-value='10' data-label='null' data-start='10' data-stop='100' data-step='10' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">90 % Querschnitts\u00f6ffnung</span></span></div></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'><img src='./@file/12651-3966146-6JeHCaWC.png' style='width: 200px;height: 150px' /><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"180\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"37\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"37\" fill=\"transparent\"/>\n    </svg>\n    </div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"240\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"240\" fill=\"transparent\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"195\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"195\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"37\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"37\" fill=\"transparent\"/>\n    </svg>\n    </div></div>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"120\" height=\"15\" fill=\"transparent\"/>\n    </svg>\n    <div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"150\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"150\" fill=\"transparent\"/>\n    </svg>\n    <span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">-0.31 bar</span></span><img src='./@file/16950-3966146-I7smQMs2.png' style='width: 40px;height: 60px' />\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"150\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    </div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: flex-end;flex-wrap: nowrap;gap: 0rem'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"150\" height=\"15\" fill=\"transparent\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"75\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"75\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    <div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: flex-start;flex-wrap: nowrap;gap: 0rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-end;align-items: flex-start;flex-wrap: nowrap;gap: 5rem'><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">1.75 bar</span></span><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">78.8 <marimo-tex class=\"arithmatex\">||(m^3/h||)</marimo-tex></span></span></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-end;align-items: flex-end;flex-wrap: nowrap;gap: 5rem'><img src='./@file/16950-3966146-I7smQMs2.png' style='width: 40px;height: 60px' /><img src='./@file/132939-3966146-uDFAMu0B.png' style='width: 40px;height: 80px' /></div>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"225\" height=\"15\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"225\" height=\"15\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\"/>\n    </svg>\n    \n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"60\" style=\"display:block;margin:0;padding:0;\">\n        <rect x=\"0\" y=\"0\" width=\"15\" height=\"60\" fill=\"transparent\"/>\n    </svg>\n    </div><img src='./@file/12651-3966146-6JeHCaWC.png' style='width: 200px;height: 150px' /></div><img src='./@file/36615-3966146-VDfTfIOz.png' style='width: 140px;height: 140px' /></div></div></div></div></marimo-tabs></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
